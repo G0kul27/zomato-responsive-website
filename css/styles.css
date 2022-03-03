@@ -1,0 +1,190 @@
+h1
+{
+    font-family: 'Fredoka', sans-serif;
+}
+h2
+{
+    font-family: 'Rancho', cursive;
+}
+p
+{
+    font-size: 1.25rem;
+}
+ /* header section */
+ .head
+ {
+        background-image: url('../images/background.jpg');
+        background-repeat: no-repeat;
+        min-height: 600px;
+        color: white;
+        text-align: center;
+ }
+ .header-title
+ {
+        font-size: 6rem;
+ }
+.header-row
+{
+    margin-top: 70px;
+}
+.header-para
+{
+    font-size:2rem;
+    font-weight: bold;
+}
+.header-anchor
+{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+
+/* about section */
+
+#part-two
+{
+    background-color:white;
+    text-align: center;
+}
+.container-fluid
+{
+    padding: 10% 15%;
+}
+.about-icon
+{
+    font-size: 3rem;
+}
+.about-heading:hover
+{
+    color:#F58634;
+}
+.about-heading
+{
+    text-transform: capitalize;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+/* order section */
+
+#part-three
+{
+    background-color: #FFDFAF;
+}
+.order-heading
+{
+   font-size: 3rem;
+   color:white;
+   text-shadow: 0 0 7px #F76E11;
+}
+.order-img
+{
+    width:90%;
+}
+.order-link-img
+{
+    width:35%;
+    margin:10px 0px 20px;
+}
+
+/* food important section */
+
+#part-four
+{
+    background-color:white;
+    text-align: center;
+}
+
+.food-img
+{
+    border-radius: 100%;
+    width:20%;
+    margin: 20px;
+}
+.food-heading
+{
+    font-family: 'Rancho', cursive;
+   font-size: 3rem;
+   line-height:1.5;
+   text-shadow: 0 0 2px #F76E11;
+}
+.food-span
+{
+    font-weight: bold;
+}
+
+
+/* food card section */
+
+#part-five
+{
+    background-color:#FFDFAF;
+    text-align: center;
+}
+.food-card-heading
+{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 0 7px #F76E11;
+}
+.food-card-inside-heading
+{
+    font-size:2.5rem;
+    text-shadow: 0 0 2px #F76E11;
+}
+.card-para
+{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.card
+{
+    margin-bottom: 9px;
+}
+
+/* footer section */
+
+#part-six
+{
+    background-color: white;
+    text-align: center;
+    padding: 50px 30px 20px;
+}
+.footer-img
+{
+    height:20px;
+}
+.footer-icon
+{
+    font-size:1.5rem;
+    padding:0px 10px;
+}
+.footer-icon:hover
+{
+    color:#FF4C29;
+}
+.footer-para
+{
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+
+    /* media query */
+
+ @media screen and (max-width:600px)
+ {
+    #part-three
+    {
+        text-align: center;
+    }
+    .food-heading
+
+    {
+        line-height: 1.2;
+    }
+    .footer-para
+    {
+        margin:20px;
+    }
+ }
