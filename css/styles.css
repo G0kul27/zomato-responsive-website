@@ -13,7 +13,7 @@ p
  /* header section */
  .head
  {
-        background-image: url('../images/background.jpg');
+        background-image: url('../images/background.');
         background-repeat: no-repeat;
         min-height: 600px;
         color: white;
